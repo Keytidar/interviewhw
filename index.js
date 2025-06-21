@@ -91,7 +91,7 @@ function interview() {
     ? `${favSport} ? Good choice`
     : `${favSport} ? Never heard of it`;
   alert(AlertMsgSport);
-  let alertMsgFinal = `Your age is ${currentYear - YearOfBirth} years
+  let alertMsgFinal = `Your age is ${userAge} years
 ${alertMsgCity}
 ${favSport} is your favorite sport
   `;
